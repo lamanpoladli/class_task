@@ -1,0 +1,102 @@
+.col-12{
+    width: 100%;
+}
+.col-3{
+    width: 25%;
+}
+.col-6{
+    width: 50%;
+}
+@media only screen and (max-width: 1570px){
+    nav {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        padding: 16px 0;
+        .nav-left{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .first_left{
+                color: $color-1;
+                font-size: 20px;
+            }
+            .first_right{
+                display: none !important;
+                ul{
+                    display: flex;
+                    gap: 20px;
+                    .list{
+                        
+                        a{
+                            color: rgb(75, 74, 74);
+                            font-size: 18px;
+                  
+                        }
+                    }
+                    
+                    
+                }
+            }
+            i{
+                display: block !important;
+                margin: 0 auto
+               
+            }
+        }
+    }
+    .col-md-6{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 500px){
+    nav {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        padding: 16px 0;
+        .nav-left{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .first_left{
+                color: $color-1;
+                font-size: 20px;
+            }
+            .first_right{
+                display: none !important;
+                ul{
+                    display: flex;
+                    gap: 20px;
+                    .list{
+                        
+                        a{
+                            color: rgb(75, 74, 74);
+                            font-size: 18px;
+                  
+                        }
+                    }
+                    
+                    
+                }
+            }
+            i{
+                display: block !important;
+                margin: 0 auto
+               
+            }
+        }
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+
+}
+

@@ -1,15 +1,5 @@
-main{
-   
-}
-.col-12{
-    width: 100%;
-}
-.col-3{
-    width: 25%;
-}
-.col-6{
-    width: 50%;
-}
+
+
 .section_1{
     
     text-align: center;
@@ -21,35 +11,35 @@ main{
     padding: 15% 0px;
    
    h2{
-    color: #96BB7C;
+    color: $color-2;
     font-size: 23px;
    }
    h1{
-    color: #252B42;
+    color: $color-4;
     font-size: 70px;
     margin: 3% 0px;
    }
    p{
-    color: #737373;
+    color: $color-5;
     font-size: 30px;
     margin-bottom: 3%;
    }
    .left-button{
     width: 193px;
 height: 52px;
-background: #96BB7C;
+background: $color-2;
 border-radius: 5px;
 padding: 15px 40px;
-color: white;
+color: $color-3;
    }
    .right-button{
     width: 193px;
 height: 52px;
-background: white;
+background: $color-3;
 border-radius: 5px;
 padding: 15px 40px;
-border:1px solid #96BB7C;
-color: #96BB7C;
+border:1px solid $color-2;
+color: $color-2;
    }
 }
 .section_2{
@@ -76,14 +66,14 @@ color: #96BB7C;
         }
         .col-12{
             h6{
-                color: #96BB7C;
+                color: $color-2;
                 font-size: 18px;
             }
             h1{
                 font-weight: 700;
                 font-size: 40px;
                 line-height: 50px;
-                color: #252B42;
+                color: $color-4;
                 margin: 2% 0px 1% 0px;
 
             }
@@ -92,25 +82,33 @@ color: #96BB7C;
                 font-size: 14px;
                 line-height: 20px;
                 letter-spacing: 0.2px;
-                color: #737373;
+                color: $color-5;
 
             }
         }
-    
+        .col-color{
+            background-color: $color-2;
+            div{
+                color: $color-3;
+                div{
+                    background-color:$color-6 !important;
+                    box-shadow: 5px 10px 8px 10px $color-2 !important;
+                }
+            }
+        }
         .col-3{
             margin-top: 5%;
             
             div{
                 margin: 0px 2%;
                 text-align: center;
-                box-shadow: 5px 10px 8px 10px #d0cece;
-                padding-top: 7%;
+                box-shadow: 5px 10px 8px 10px $color-7;
+                padding: 10% 0px;
                 div{
-                    box-shadow: 5px 10px 8px 10px #ffffff;
+                    box-shadow: 5px 10px 8px 10px $color-3;
                     margin: 5% auto 0px auto;
-                    background-color: #B3E3FF;
+                    background-color: $color-8;
                     width: 72px;
-                    height: 58.12px;
                     border-bottom-left-radius: 50px;
                     border-bottom-right-radius: 5px;
                     border-top-left-radius: 10px;
@@ -133,7 +131,7 @@ color: #96BB7C;
                     font-size: 20px;
                 }
                 p{
-                    margin-top: 3% ;
+                    margin: 3% 0px;
                 }
             }
         }
@@ -170,18 +168,18 @@ color: #96BB7C;
                 p{
                     font-size: 18px;
                     margin: 5% 0px;
-                   color: #737373;
+                   color: $color-5;
 
                 }
                 a{
-                    color: #96BB7C;
+                    color: $color-2;
                 }
             }
         }
     }
 }
 .section_5{
-    background-color: #EFF8ED;
+    background-color: $color-9;
     padding: 3% 0px;
     .container{
 
@@ -194,14 +192,14 @@ color: #96BB7C;
         }
         .col-12{
             h6{
-                color: #96BB7C;
+                color: $color-2;
                 font-size: 18px;
             }
             h1{
                 font-weight: 700;
                 font-size: 40px;
                 line-height: 50px;
-                color: #252B42;
+                color: $color-4;
                 margin: 1% 0px 1% 0px;
 
             }
@@ -210,7 +208,7 @@ color: #96BB7C;
                 font-size: 14px;
                 line-height: 20px;
                 letter-spacing: 0.2px;
-                color: #737373;
+                color: $color-5;
 
             }
         }
@@ -220,30 +218,40 @@ color: #96BB7C;
             
             div{
                 margin: 0px 10%;
-              
-              
-               
-                
                 .top_div{
                     width: 90%;
-                    height: 300px;
-                    background-image: url("https://cdn.shopify.com/s/files/1/1174/1558/products/3_e3331615-6080-40e2-aab4-908c756de891_400x.jpg?v=1580162817");
-                   
+                    height: 300px;  
                     img{
                         width: 100%;
                         height: 100%;
                     }
                 }
+                .img-1{
+                    background-image: url("https://cdn.shopify.com/s/files/1/1174/1558/products/3_e3331615-6080-40e2-aab4-908c756de891_400x.jpg?v=1580162817");
+                    background-size: cover;
+                }
+                .img-2{
+                    background-image: url("https://i0.wp.com/johnmuirlaws.com/wp-content/uploads/2020/09/pencils-store.jpg?fit=1000%2C1333&ssl=1");
+                    background-size: cover;
+                }
+                .img-3{
+                    background-image: url("https://w0.peakpx.com/wallpaper/1009/771/HD-wallpaper-color-pencil-colour.jpg");
+                    background-size: cover;
+                }
+                .img-4{
+                    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/ns17767-image-kwvwnh1d.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=7c79a732c0d928e7830689e9a3d1df63");
+                    background-size: cover;
+                }
                 .button_div{
-                    background-color: white;
+                    background-color: $color-3;
                     width: 80%;
-                    padding:0px 5%;
+                    padding:5% 5%;
                     h6{
                         font-weight: 700;
                         font-size: 14px;
                         line-height: 24px;
                         letter-spacing: 0.2px;
-                        color: #96BB7C;
+                        color: $color-2;
 
                     }
                     h3{
@@ -251,24 +259,24 @@ color: #96BB7C;
                         font-size: 18px;
                         line-height: 24px;
                         letter-spacing: 0.1px;
-                        color: #252B42;
+                        color: $color-4;
                     }
                     p{
                         font-weight: 400;
                         font-size: 15px;
                         line-height: 20px;
                         letter-spacing: 0.2px;
-                        color: #737373;
+                        color: $color-5;
                         margin-bottom: 5%;
 
                     }
                     span{
                         font-weight: bolder;
-                        color: #737373;
+                        color: $color-5;
             
                     }
                     .right_span{
-                        color: #FFAB71;
+                        color: $color-6;
                         font-weight: bolder;
                         margin-left: 3%;
                     }
@@ -284,9 +292,9 @@ color: #96BB7C;
                         width: 170px;
                         height: 50px;
                         border-radius: 30px;
-                        color: #96BB7C;
-                        border: 1px solid #96BB7C;
-                        background-color: white;
+                        color: $color-2;
+                        border: 1px solid $color-2;
+                        background-color: $color-3;
                         margin-top: 5%;
                     }
                 }
@@ -309,14 +317,14 @@ color: #96BB7C;
         }
         .col-12{
             h6{
-                color: #96BB7C;
+                color: $color-2;
                 font-size: 18px;
             }
             h1{
                 font-weight: 700;
                 font-size: 40px;
                 line-height: 50px;
-                color: #252B42;
+                color: $color-4;
                 margin: 1% 0px 1% 0px;
 
             }
@@ -325,7 +333,7 @@ color: #96BB7C;
                 font-size: 14px;
                 line-height: 20px;
                 letter-spacing: 0.2px;
-                color: #737373;
+                color: $color-5;
 
             }
         }
@@ -338,17 +346,69 @@ color: #96BB7C;
                 height: 120px;
                 border-radius: 50%;
             }
+            div{
+                margin: 2% 0px 0px 0px;
+            }
             button{
                 width: 100px;
                 height: 30px;
                 background-color: rgb(26, 26, 154);
-                color: white;
+                color: $color-3;
                 border-radius: 20px;
                 border: none;
-                margin: 5% 0px;
+                margin: 2% 0px;
             }
         }
     
         
+    }
+}
+.section_7{
+    .container{
+        width: 70%;
+        margin: 0 auto;
+       padding: 10% 0px;
+       text-align: center;
+       h6{
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+        color: $color-2;
+       }
+       h1{
+        font-size: 30px;
+        line-height: 24px;
+        color: $color-4;
+        margin: 2% 0px;
+       }
+       .word_p{
+        color: $color-5;
+        font-size: 18px;
+       }
+       div{
+        width: 688px;
+        height: 58px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-left: 2%;
+        background-color: #F9F9F9;
+        margin-top: 5%;
+        p{
+            color: $color-10;
+        }
+        button{
+            width: 150px;
+            height: 100%;
+            background-color: $color-2;
+            color: $color-3;
+            border: none;
+            
+        }
+       }
+
+       
     }
 }

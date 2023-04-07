@@ -1,9 +1,7 @@
 @import "./abstracts/variables";
 @import "./base/reset";
+@import "./base/grid";
 @import "./layout/header";
 @import "./layout/main";
 @import "./layout/footer";
 
-body {
-    position: relative;
-  }

@@ -1,18 +1,23 @@
 footer{
-    background-color: aliceblue;
-    
+    background-color: $color-9;
+    padding: 5% 0px;
+    color: $color-5;
     div{
         margin: 0 auto;
-    width: 45%;
+        width: 60%;
         display: flex;
         flex-wrap: wrap;
         .footer_mainul{
             display: flex;
-            gap: 120px;
+            gap: 50px;
             li{
                 li{
                     font-size: 20px;
                     margin-bottom: 5%;
+                }
+                .black-li{
+                    color: black !important;
+                    font-weight: bolder;
                 }
             }
         }

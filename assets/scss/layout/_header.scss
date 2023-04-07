@@ -3,40 +3,44 @@ header {
     position: fixed;
     display: flex;
     justify-content: center;
-    background-color: white !important;
+    background-color: $color-3 !important;
     width: 100%;
-  
-   
   }
-
   nav {
-    
     width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     padding: 16px 0;
-  
     .nav-left{
-        width: 40%;
+        width: 50%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         .first_left{
-            color: #2D4059;
+            color: $color-1;
             font-size: 20px;
-        
         }
         .first_right{
+            display: block;
             ul{
                 display: flex;
                 gap: 20px;
-                a{
-                    color: rgb(75, 74, 74);
-                    font-size: 18px;
+                .list{
+                    
+                    a{
+                        color: rgb(75, 74, 74);
+                        font-size: 18px;
+              
+                    }
                 }
+                
             }
+        }
+        i{
+            display: none;
+           
         }
     }
     .nav-right{
@@ -49,11 +53,11 @@ header {
             align-items: center;
             a{
                 font-size: 17px;
-                color:#96BB7C;
+                color:$color-2;
             }
             button{
-                background-color: #96BB7C;
-                color: white;
+                background-color: $color-2;
+                color: $color-3;
                 border: none;
                 width: 130px;
                 height: 50px;
