@@ -1,0 +1,20 @@
+footer{
+    background-color: aliceblue;
+    
+    div{
+        margin: 0 auto;
+    width: 45%;
+        display: flex;
+        flex-wrap: wrap;
+        .footer_mainul{
+            display: flex;
+            gap: 120px;
+            li{
+                li{
+                    font-size: 20px;
+                    margin-bottom: 5%;
+                }
+            }
+        }
+    }
+}
